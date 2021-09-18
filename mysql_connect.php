@@ -3,8 +3,8 @@
 
 $dbHost = 'localhost'; // Host name
 $dbName = 'users'; // database name
-$dbUserName = 'root'; // User name
-$dbPass = ''; // User password
+$dbUserName = 'devashik'; // User name
+$dbPass = '12345678'; // User password
 
 
 //connecting to data base
