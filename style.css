@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  height: 1000px;
+  font-style: normal;
+  backdrop-filter: blur(2px);
+  background-repeat: no-repeat;
+  background-size: 100% 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("./image/Background.jpg");
+}
+
+/* nav ber start */
+.Header {
+  padding: 5px;
+  height: 50px;
+  display: flex;
+  line-height: 50px;
+  text-align: center;
+  background-color: #473558;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.HeaderImage {
+  width: 10%;
+}
+
+.Header img {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.HeaderAncor {
+  width: 80%;
+  text-align: center;
+}
+
+.HeaderAncor a {
+  color: black;
+  font-weight: 700;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+.Header a:hover {
+  background-color: rgba(107, 102, 102, 0.3);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* nav ber end */
+
+/* loginForm start */
+
+.ashiklogin {
+  width: 370px;
+  height: 380px;
+  position: relative;
+  margin: 100px auto;
+  border-radius: 3px;
+  backdrop-filter: blur(10px);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.07);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ashiklogin h1 {
+  color: black;
+  font-size: 24px;
+  margin-top: 0px;
+  line-height: 55px;
+  font-weight: bold;
+  text-align: center;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  backdrop-filter: blur(10px);
+  font-family: "Open Sans", sans-serif;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.inputBox {
+  width: 200px;
+  height: 24px;
+  border: none;
+  font-size: 22px;
+  font-weight: 400;
+  position: relative;
+  margin-bottom: 15px;
+  backdrop-filter: blur(10px);
+  padding: 10px 15px 10px 15px;
+  transition: color 0.3s ease-out;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  font-family: "Open Sans", Calibri, Arial, sans-serif;
+}
+
+.submitButton {
+  width: 230px;
+  border: none;
+  color: black;
+  padding: 12px 0;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  backdrop-filter: blur(10px);
+  font-family: "Open Sans", sans-serif;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.accountUpdate a {
+    text-decoration: none;
+}
+/* loginForm end */
